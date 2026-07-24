@@ -215,8 +215,42 @@ public class MenuPrincipal {
     }
 
     private void mostrarTotal() {
-        System.out.println("\n--- Costo de Mantenimiento Total ---");
-        double total = controlador.calcularCostoMantenimientoTotal();
-        System.out.printf("El costo total de mantenimiento de todos los activos es: $%.2f%n", total);
+        System.out.println("\n--- Detalle de Costo de Mantenimiento ---");
+
+        // Obtenemos la lista para mostrar el detalle
+        List<Activo> lista = controlador.listarActivos();
+
+        if (lista.isEmpty()) {
+            System.out.println("No hay activos registrados para calcular.");
+            return;
+        }
+
+        // Encabezado de la tabla
+        // %-10s: String alineado a la izquierda con 10 espacios de ancho
+        System.out.printf("%-10s %-20s %-20s%n", "ID", "Nombre", "Costo Manten.");
+        System.out.println("---------------------------------------------------------");
+
+        double total = 0;
+        // Modifica la línea del ciclo for en MenuPrincipal
+        for (Activo a : lista) {
+            double costoMantenimiento = a.calcularCostoMantenimiento();
+            double valorAdquisicion = a.getValorAdquisicion();
+            total += costoMantenimiento;
+
+            // Imprime el valor de compra y el de mantenimiento
+            System.out.printf("%-10s %-15s $%-10.2f $%-15.2f%n",
+                    a.getId(),
+                    a.getNombre(),
+                    valorAdquisicion,
+                    costoMantenimiento);
+        }
+
+        // Pie de tabla con el total acumulado
+        System.out.println("---------------------------------------------------------");
+        System.out.printf("TOTAL ACUMULADO:              $%.2f%n", total);
+
+        // Pausa para que el usuario lea la tabla
+        System.out.println("\nPresiona ENTER para volver al menú...");
+        sc.nextLine();
     }
 }

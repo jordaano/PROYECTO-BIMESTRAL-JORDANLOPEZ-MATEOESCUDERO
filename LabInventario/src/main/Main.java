@@ -1,10 +1,10 @@
 package main;
 
 import controlador.ActivoController;
-import dao.ActivoDAO;
-import dao.IActivoDAO;
-import servicios.ActivoServicio;
-import servicios.IActivoServicio;
+import modelo.ActivoDAO;
+import modelo.IActivoDAO;
+import modelo.ActivoServicio;
+import modelo.IActivoServicio;
 import vista.MenuPrincipal;
 
 public class Main {

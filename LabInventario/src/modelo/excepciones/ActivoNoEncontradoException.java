@@ -1,0 +1,9 @@
+package modelo.excepciones;
+
+public class ActivoNoEncontradoException extends Exception {
+
+    public ActivoNoEncontradoException(String mensaje) {
+        super(mensaje);
+    }
+
+}

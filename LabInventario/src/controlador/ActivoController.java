@@ -1,7 +1,7 @@
 package controlador;
 
 import modelo.Activo;
-import servicios.IActivoServicio;
+import modelo.IActivoServicio;
 import factory.ActivoFactory;
 import java.util.List;
 
