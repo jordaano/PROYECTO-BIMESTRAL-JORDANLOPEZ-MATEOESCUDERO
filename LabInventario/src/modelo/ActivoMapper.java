@@ -5,7 +5,6 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Types;
 
-import factory.ActivoFactory;
 import modelo.Activo;
 
 public class ActivoMapper {

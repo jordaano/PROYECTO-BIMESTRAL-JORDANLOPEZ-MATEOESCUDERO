@@ -3,24 +3,23 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/Jordann/Desktop/Proyecto%20final/LabInventario/src/main/Main.java</file>
-            <file>file:/C:/Users/Jordann/Desktop/Proyecto%20final/LabInventario/src/labinventario/LabInventario.java</file>
-            <file>file:/C:/Users/Jordann/Desktop/Proyecto%20final/LabInventario/src/controlador/ActivoController.java</file>
-            <file>file:/C:/Users/Jordann/Desktop/Proyecto%20final/LabInventario/src/modelo/Hardware.java</file>
-            <file>file:/C:/Users/Jordann/Desktop/Proyecto%20final/LabInventario/src/modelo/Licencia.java</file>
-            <file>file:/C:/Users/Jordann/Desktop/Proyecto%20final/LabInventario/src/modelo/Periferico.java</file>
-            <file>file:/C:/Users/Jordann/Desktop/Proyecto%20final/LabInventario/src/servicios/ActivoServicio.java</file>
-            <file>file:/C:/Users/Jordann/Desktop/Proyecto%20final/LabInventario/src/util/ConexionSQLite.java</file>
-            <file>file:/C:/Users/Jordann/Desktop/Proyecto%20final/LabInventario/src/dao/ActivoDAO.java</file>
-            <file>file:/C:/Users/Jordann/Desktop/Proyecto%20final/LabInventario/src/dao/IActivoDAO.java</file>
-            <file>file:/C:/Users/Jordann/Desktop/Proyecto%20final/LabInventario/src/modelo/Activo.java</file>
-            <file>file:/C:/Users/Jordann/Desktop/Proyecto%20final/LabInventario/src/factory/ActivoFactory.java</file>
-            <file>file:/C:/Users/Jordann/Desktop/Proyecto%20final/LabInventario/src/exception/ActivoDuplicadoException.java</file>
-            <file>file:/C:/Users/Jordann/Desktop/Proyecto%20final/LabInventario/src/exception/ActivoNoEncontradoException.java</file>
-            <file>file:/C:/Users/Jordann/Desktop/Proyecto%20final/LabInventario/src/exception/DatoInvalidoException.java</file>
-            <file>file:/C:/Users/Jordann/Desktop/Proyecto%20final/LabInventario/src/mapper/ActivoMapper.java</file>
-            <file>file:/C:/Users/Jordann/Desktop/Proyecto%20final/LabInventario/src/vista/MenuPrincipal.java</file>
-            <file>file:/C:/Users/Jordann/Desktop/Proyecto%20final/LabInventario/src/servicios/IActivoServicio.java</file>
+            <file>file:/C:/Users/Jordann/Desktop/ProyectoFinal/LabInventario/src/controlador/ActivoController.java</file>
+            <file>file:/C:/Users/Jordann/Desktop/ProyectoFinal/LabInventario/src/main/Main.java</file>
+            <file>file:/C:/Users/Jordann/Desktop/ProyectoFinal/LabInventario/src/modelo/ConexionSQLite.java</file>
+            <file>file:/C:/Users/Jordann/Desktop/ProyectoFinal/LabInventario/src/vista/MenuPrincipal.java</file>
+            <file>file:/C:/Users/Jordann/Desktop/ProyectoFinal/LabInventario/src/modelo/ActivoFactory.java</file>
+            <file>file:/C:/Users/Jordann/Desktop/ProyectoFinal/LabInventario/src/modelo/Activo.java</file>
+            <file>file:/C:/Users/Jordann/Desktop/ProyectoFinal/LabInventario/src/modelo/ActivoDAO.java</file>
+            <file>file:/C:/Users/Jordann/Desktop/ProyectoFinal/LabInventario/src/modelo/ActivoMapper.java</file>
+            <file>file:/C:/Users/Jordann/Desktop/ProyectoFinal/LabInventario/src/modelo/ActivoServicio.java</file>
+            <file>file:/C:/Users/Jordann/Desktop/ProyectoFinal/LabInventario/src/modelo/Hardware.java</file>
+            <file>file:/C:/Users/Jordann/Desktop/ProyectoFinal/LabInventario/src/modelo/IActivoDAO.java</file>
+            <file>file:/C:/Users/Jordann/Desktop/ProyectoFinal/LabInventario/src/modelo/IActivoServicio.java</file>
+            <file>file:/C:/Users/Jordann/Desktop/ProyectoFinal/LabInventario/src/modelo/Licencia.java</file>
+            <file>file:/C:/Users/Jordann/Desktop/ProyectoFinal/LabInventario/src/modelo/Periferico.java</file>
+            <file>file:/C:/Users/Jordann/Desktop/ProyectoFinal/LabInventario/src/modelo/excepciones/ActivoDuplicadoException.java</file>
+            <file>file:/C:/Users/Jordann/Desktop/ProyectoFinal/LabInventario/src/modelo/excepciones/ActivoNoEncontradoException.java</file>
+            <file>file:/C:/Users/Jordann/Desktop/ProyectoFinal/LabInventario/src/modelo/excepciones/DatoInvalidoException.java</file>
         </group>
     </open-files>
 </project-private>
