@@ -1,7 +1,7 @@
 package vista;
 
 import controlador.ActivoController;
-import factory.ActivoFactory;
+import modelo.ActivoFactory;
 import modelo.Activo;
 
 import java.util.List;

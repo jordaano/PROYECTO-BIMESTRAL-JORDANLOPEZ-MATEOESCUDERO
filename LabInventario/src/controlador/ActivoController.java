@@ -2,7 +2,7 @@ package controlador;
 
 import modelo.Activo;
 import modelo.IActivoServicio;
-import factory.ActivoFactory;
+import modelo.ActivoFactory;
 import java.util.List;
 
 public class ActivoController {
